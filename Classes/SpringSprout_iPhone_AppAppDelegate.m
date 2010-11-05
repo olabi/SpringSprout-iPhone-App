@@ -12,15 +12,16 @@
 @implementation SpringSprout_iPhone_AppAppDelegate
 
 @synthesize window;
-
+@synthesize rootViewCtrl = _rootViewCtrl;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Override point for customization after application launch.
-    
+	_rootViewCtrl = [RootViewController alloc];
+	
+	[window addSubview:_rootViewCtrl.view];
     [window makeKeyAndVisible];
     
     return YES;
@@ -194,8 +195,11 @@
     [managedObjectModel_ release];
     [persistentStoreCoordinator_ release];
     
+	[_rootViewCtrl release];
     [window release];
+	
     [super dealloc];
+	
 }
 
 
