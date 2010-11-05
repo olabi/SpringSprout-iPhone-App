@@ -14,7 +14,6 @@
 @interface SpringSprout_iPhone_AppAppDelegate : NSObject <UIApplicationDelegate> {
     
     UIWindow *window;
-	RootViewController* _rootViewCtrl;	
 	
 @private
     NSManagedObjectContext *managedObjectContext_;
@@ -23,7 +22,6 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (readonly) RootViewController *rootViewCtrl;
 
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
