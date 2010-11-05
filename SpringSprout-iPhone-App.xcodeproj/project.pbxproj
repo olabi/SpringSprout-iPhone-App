@@ -21,6 +21,10 @@
 		F968A80B12847E26000FBC2C /* checkBox_Off.png in Resources */ = {isa = PBXBuildFile; fileRef = F968A80812847E26000FBC2C /* checkBox_Off.png */; };
 		F968A80C12847E26000FBC2C /* checkBox_On.png in Resources */ = {isa = PBXBuildFile; fileRef = F968A80912847E26000FBC2C /* checkBox_On.png */; };
 		F968A80D12847E26000FBC2C /* logo_beta.png in Resources */ = {isa = PBXBuildFile; fileRef = F968A80A12847E26000FBC2C /* logo_beta.png */; };
+		F968A880128487E8000FBC2C /* ServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F968A87E128487E8000FBC2C /* ServiceViewController.m */; };
+		F968A881128487E8000FBC2C /* ServiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F968A87F128487E8000FBC2C /* ServiceViewController.xib */; };
+		F968A89712848977000FBC2C /* StudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F968A89612848977000FBC2C /* StudyViewController.m */; };
+		F968A89912848A25000FBC2C /* StudyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F968A89812848A25000FBC2C /* StudyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,12 @@
 		F968A80812847E26000FBC2C /* checkBox_Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox_Off.png; path = Resources/images/checkBox_Off.png; sourceTree = "<group>"; };
 		F968A80912847E26000FBC2C /* checkBox_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox_On.png; path = Resources/images/checkBox_On.png; sourceTree = "<group>"; };
 		F968A80A12847E26000FBC2C /* logo_beta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_beta.png; path = Resources/images/logo_beta.png; sourceTree = "<group>"; };
+		F968A87D128487E8000FBC2C /* ServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceViewController.h; sourceTree = "<group>"; };
+		F968A87E128487E8000FBC2C /* ServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceViewController.m; sourceTree = "<group>"; };
+		F968A87F128487E8000FBC2C /* ServiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ServiceViewController.xib; path = Resources/ServiceViewController.xib; sourceTree = "<group>"; };
+		F968A89512848977000FBC2C /* StudyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyViewController.h; sourceTree = "<group>"; };
+		F968A89612848977000FBC2C /* StudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyViewController.m; sourceTree = "<group>"; };
+		F968A89812848A25000FBC2C /* StudyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudyViewController.xib; path = Resources/StudyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +80,10 @@
 				F968A79112846AEF000FBC2C /* RootViewController.m */,
 				F968A7A912846D2D000FBC2C /* LoginViewController.h */,
 				F968A7AA12846D2D000FBC2C /* LoginViewController.m */,
+				F968A87D128487E8000FBC2C /* ServiceViewController.h */,
+				F968A87E128487E8000FBC2C /* ServiceViewController.m */,
+				F968A89512848977000FBC2C /* StudyViewController.h */,
+				F968A89612848977000FBC2C /* StudyViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -109,6 +123,8 @@
 				F968A80712847E11000FBC2C /* images */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				F968A7AB12846D2D000FBC2C /* LoginViewController.xib */,
+				F968A87F128487E8000FBC2C /* ServiceViewController.xib */,
+				F968A89812848A25000FBC2C /* StudyViewController.xib */,
 				2819305F112F816700ECF9B4 /* SpringSprout_iPhone_App.xcdatamodeld */,
 				8D1107310486CEB800E47090 /* SpringSprout_iPhone_App-Info.plist */,
 			);
@@ -190,6 +206,8 @@
 				F968A80B12847E26000FBC2C /* checkBox_Off.png in Resources */,
 				F968A80C12847E26000FBC2C /* checkBox_On.png in Resources */,
 				F968A80D12847E26000FBC2C /* logo_beta.png in Resources */,
+				F968A881128487E8000FBC2C /* ServiceViewController.xib in Resources */,
+				F968A89912848A25000FBC2C /* StudyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +223,8 @@
 				28193060112F816700ECF9B4 /* SpringSprout_iPhone_App.xcdatamodeld in Sources */,
 				F968A79212846AEF000FBC2C /* RootViewController.m in Sources */,
 				F968A7AC12846D2D000FBC2C /* LoginViewController.m in Sources */,
+				F968A880128487E8000FBC2C /* ServiceViewController.m in Sources */,
+				F968A89712848977000FBC2C /* StudyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
