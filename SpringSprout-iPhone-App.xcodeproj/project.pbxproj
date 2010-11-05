@@ -41,9 +41,9 @@
 		F968A7A912846D2D000FBC2C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		F968A7AA12846D2D000FBC2C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		F968A7AB12846D2D000FBC2C /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Resources/LoginViewController.xib; sourceTree = "<group>"; };
-		F968A80812847E26000FBC2C /* checkBox_Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox_Off.png; path = /Developer_workspace/xcode/springsprout/iphoneApp/Resources/images/checkBox_Off.png; sourceTree = "<absolute>"; };
-		F968A80912847E26000FBC2C /* checkBox_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox_On.png; path = /Developer_workspace/xcode/springsprout/iphoneApp/Resources/images/checkBox_On.png; sourceTree = "<absolute>"; };
-		F968A80A12847E26000FBC2C /* logo_beta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_beta.png; path = /Developer_workspace/xcode/springsprout/iphoneApp/Resources/images/logo_beta.png; sourceTree = "<absolute>"; };
+		F968A80812847E26000FBC2C /* checkBox_Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox_Off.png; path = Resources/images/checkBox_Off.png; sourceTree = "<group>"; };
+		F968A80912847E26000FBC2C /* checkBox_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox_On.png; path = Resources/images/checkBox_On.png; sourceTree = "<group>"; };
+		F968A80A12847E26000FBC2C /* logo_beta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_beta.png; path = Resources/images/logo_beta.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
