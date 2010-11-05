@@ -1,15 +1,6 @@
-//
-//  SpringSprout_iPhone_AppAppDelegate.m
-//  SpringSprout-iPhone-App
-//
-//  Created by arawn on 10. 11. 6..
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
-//
+#import "AppDelegate.h"
 
-#import "SpringSprout_iPhone_AppAppDelegate.h"
-
-
-@implementation SpringSprout_iPhone_AppAppDelegate
+@implementation AppDelegate
 
 @synthesize window;
 
@@ -20,7 +11,7 @@
     
 	RootViewController *rootViewCtrl = [RootViewController alloc];
 	window.rootViewController = rootViewCtrl;
-	[rootViewCtrl release];
+	// [rootViewCtrl release];
 
     [window makeKeyAndVisible];
     

@@ -4,8 +4,14 @@
 
 #import <UIKit/UIKit.h>
 
+#import "LoginViewController.h"
+
 @interface RootViewController : UIViewController {
 	
+	LoginViewController *loginViewCtrl;
+	
 }
+
+- (void)initLoginViewCtrl;
 
 @end
