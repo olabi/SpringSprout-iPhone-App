@@ -53,16 +53,16 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* SpringSprout_iPhone_App_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringSprout_iPhone_App_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SpringSprout_iPhone_App-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SpringSprout_iPhone_App-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		F938DFAF1285687100DA0078 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = /Developer_workspace/xcode/springsprout/iphoneApp/clock.png; sourceTree = "<absolute>"; };
-		F938DFB01285687100DA0078 /* period.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = period.png; path = /Developer_workspace/xcode/springsprout/iphoneApp/period.png; sourceTree = "<absolute>"; };
-		F938DFB312856B2700DA0078 /* studyLogoBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = studyLogoBg.png; path = /Developer_workspace/xcode/springsprout/iphoneApp/studyLogoBg.png; sourceTree = "<absolute>"; };
+		F938DFAF1285687100DA0078 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = Resources/clock.png; sourceTree = "<group>"; };
+		F938DFB01285687100DA0078 /* period.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = period.png; path = Resources/period.png; sourceTree = "<group>"; };
+		F938DFB312856B2700DA0078 /* studyLogoBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = studyLogoBg.png; path = Resources/studyLogoBg.png; sourceTree = "<group>"; };
 		F938DFF71285722600DA0078 /* StudyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyInfoViewController.h; sourceTree = "<group>"; };
 		F938DFF81285722600DA0078 /* StudyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyInfoViewController.m; sourceTree = "<group>"; };
 		F938DFF91285722600DA0078 /* StudyDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudyDetailViewController.xib; path = Resources/StudyDetailViewController.xib; sourceTree = "<group>"; };
-		F938E003128576FB00DA0078 /* TextUnderLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextUnderLine.png; path = /Developer_workspace/xcode/springsprout/iphoneApp/TextUnderLine.png; sourceTree = "<absolute>"; };
+		F938E003128576FB00DA0078 /* TextUnderLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextUnderLine.png; path = Resources/TextUnderLine.png; sourceTree = "<group>"; };
 		F938E02F1285817700DA0078 /* StudyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyNavigationController.h; sourceTree = "<group>"; };
 		F938E0301285817700DA0078 /* StudyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyNavigationController.m; sourceTree = "<group>"; };
-		F938E0C31285902C00DA0078 /* TextBarBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextBarBg.png; path = /Developer_workspace/xcode/springsprout/iphoneApp/TextBarBg.png; sourceTree = "<absolute>"; };
+		F938E0C31285902C00DA0078 /* TextBarBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextBarBg.png; path = Resources/TextBarBg.png; sourceTree = "<group>"; };
 		F965EA6C12863C4A00B95809 /* StudyMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyMemberViewController.h; sourceTree = "<group>"; };
 		F965EA6D12863C4A00B95809 /* StudyMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyMemberViewController.m; sourceTree = "<group>"; };
 		F965EA811286414100B95809 /* StudyMeetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyMeetingViewController.h; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		F968A89612848977000FBC2C /* StudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyViewController.m; sourceTree = "<group>"; };
 		F9D2D0261284C60800C70DF5 /* StudyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyTableViewCell.h; sourceTree = "<group>"; };
 		F9D2D0271284C60800C70DF5 /* StudyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyTableViewCell.m; sourceTree = "<group>"; };
-		F9D2D0281284C60800C70DF5 /* StudyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudyTableViewCell.xib; path = Classes/StudyTableViewCell.xib; sourceTree = "<group>"; };
+		F9D2D0281284C60800C70DF5 /* StudyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudyTableViewCell.xib; path = Resources/StudyTableViewCell.xib; sourceTree = "<group>"; };
 		F9D2D0821284D3DF00C70DF5 /* StudyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudyViewController.xib; path = /Developer_workspace/xcode/springsprout/iphoneApp/Resources/StudyViewController.xib; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
