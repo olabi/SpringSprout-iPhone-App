@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import "StudyViewController.h"
+#import "StudyListViewController.h"
 #import "StudyDetailViewController.h"
 
 @interface StudyNavigationController : UINavigationController {

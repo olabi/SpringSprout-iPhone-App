@@ -229,7 +229,7 @@
 					<string>ServiceViewController</string>
 					<string>UIResponder</string>
 					<string>StudyNavigationController</string>
-					<string>StudyViewController</string>
+					<string>StudyListViewController</string>
 					<string>{{338, 285}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
@@ -281,19 +281,19 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
+					<string key="className">StudyListViewController</string>
+					<string key="superclassName">UITableViewController</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">Classes/StudyListViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
 					<string key="className">StudyNavigationController</string>
 					<string key="superclassName">UINavigationController</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">Classes/StudyNavigationController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">StudyViewController</string>
-					<string key="superclassName">UITableViewController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">Classes/StudyViewController.h</string>
 					</object>
 				</object>
 			</object>

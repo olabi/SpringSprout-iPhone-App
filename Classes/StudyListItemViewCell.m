@@ -1,7 +1,7 @@
-#import "StudyTableViewCell.h"
+#import "StudyListItemViewCell.h"
 
 
-@implementation StudyTableViewCell
+@implementation StudyListItemViewCell
 
 @synthesize studyImageView = _studyImageView;
 @synthesize titleLbl = _titleLbl;

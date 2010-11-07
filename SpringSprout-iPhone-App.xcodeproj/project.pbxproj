@@ -34,8 +34,8 @@
 		F968A80D12847E26000FBC2C /* logo_beta.png in Resources */ = {isa = PBXBuildFile; fileRef = F968A80A12847E26000FBC2C /* logo_beta.png */; };
 		F968A880128487E8000FBC2C /* ServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F968A87E128487E8000FBC2C /* ServiceViewController.m */; };
 		F968A881128487E8000FBC2C /* ServiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F968A87F128487E8000FBC2C /* ServiceViewController.xib */; };
-		F968A89712848977000FBC2C /* StudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F968A89612848977000FBC2C /* StudyViewController.m */; };
-		F9D2D0291284C60800C70DF5 /* StudyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D2D0271284C60800C70DF5 /* StudyTableViewCell.m */; };
+		F968A89712848977000FBC2C /* StudyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F968A89612848977000FBC2C /* StudyListViewController.m */; };
+		F9D2D0291284C60800C70DF5 /* StudyListItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D2D0271284C60800C70DF5 /* StudyListItemViewCell.m */; };
 		F9D2D02A1284C60800C70DF5 /* StudyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D2D0281284C60800C70DF5 /* StudyTableViewCell.xib */; };
 		F9D2D0831284D3DF00C70DF5 /* StudyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D2D0821284D3DF00C70DF5 /* StudyViewController.xib */; };
 /* End PBXBuildFile section */
@@ -80,10 +80,10 @@
 		F968A87D128487E8000FBC2C /* ServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceViewController.h; sourceTree = "<group>"; };
 		F968A87E128487E8000FBC2C /* ServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceViewController.m; sourceTree = "<group>"; };
 		F968A87F128487E8000FBC2C /* ServiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ServiceViewController.xib; path = Resources/ServiceViewController.xib; sourceTree = "<group>"; };
-		F968A89512848977000FBC2C /* StudyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyViewController.h; sourceTree = "<group>"; };
-		F968A89612848977000FBC2C /* StudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyViewController.m; sourceTree = "<group>"; };
-		F9D2D0261284C60800C70DF5 /* StudyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyTableViewCell.h; sourceTree = "<group>"; };
-		F9D2D0271284C60800C70DF5 /* StudyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyTableViewCell.m; sourceTree = "<group>"; };
+		F968A89512848977000FBC2C /* StudyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyListViewController.h; sourceTree = "<group>"; };
+		F968A89612848977000FBC2C /* StudyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyListViewController.m; sourceTree = "<group>"; };
+		F9D2D0261284C60800C70DF5 /* StudyListItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyListItemViewCell.h; sourceTree = "<group>"; };
+		F9D2D0271284C60800C70DF5 /* StudyListItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyListItemViewCell.m; sourceTree = "<group>"; };
 		F9D2D0281284C60800C70DF5 /* StudyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudyTableViewCell.xib; path = Resources/StudyTableViewCell.xib; sourceTree = "<group>"; };
 		F9D2D0821284D3DF00C70DF5 /* StudyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudyViewController.xib; path = /Developer_workspace/xcode/springsprout/iphoneApp/Resources/StudyViewController.xib; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -180,10 +180,10 @@
 			children = (
 				F938E02F1285817700DA0078 /* StudyNavigationController.h */,
 				F938E0301285817700DA0078 /* StudyNavigationController.m */,
-				F968A89512848977000FBC2C /* StudyViewController.h */,
-				F968A89612848977000FBC2C /* StudyViewController.m */,
-				F9D2D0261284C60800C70DF5 /* StudyTableViewCell.h */,
-				F9D2D0271284C60800C70DF5 /* StudyTableViewCell.m */,
+				F968A89512848977000FBC2C /* StudyListViewController.h */,
+				F968A89612848977000FBC2C /* StudyListViewController.m */,
+				F9D2D0261284C60800C70DF5 /* StudyListItemViewCell.h */,
+				F9D2D0271284C60800C70DF5 /* StudyListItemViewCell.m */,
 				F965EB2D1286540100B95809 /* StudyDetailViewController.h */,
 				F965EB2E1286540100B95809 /* StudyDetailViewController.m */,
 				F938DFF71285722600DA0078 /* StudyInfoViewController.h */,
@@ -290,8 +290,8 @@
 				F968A79212846AEF000FBC2C /* RootViewController.m in Sources */,
 				F968A7AC12846D2D000FBC2C /* LoginViewController.m in Sources */,
 				F968A880128487E8000FBC2C /* ServiceViewController.m in Sources */,
-				F968A89712848977000FBC2C /* StudyViewController.m in Sources */,
-				F9D2D0291284C60800C70DF5 /* StudyTableViewCell.m in Sources */,
+				F968A89712848977000FBC2C /* StudyListViewController.m in Sources */,
+				F9D2D0291284C60800C70DF5 /* StudyListItemViewCell.m in Sources */,
 				F938DFFA1285722600DA0078 /* StudyInfoViewController.m in Sources */,
 				F938E0311285817700DA0078 /* StudyNavigationController.m in Sources */,
 				F965EA6E12863C4A00B95809 /* StudyMemberViewController.m in Sources */,

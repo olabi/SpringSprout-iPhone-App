@@ -1,9 +1,9 @@
 #import <UIKit/UIKit.h>
 
-#import "StudyTableViewCell.h"
+#import "StudyListItemViewCell.h"
 
 
-@interface StudyViewController : UITableViewController {
+@interface StudyListViewController : UITableViewController {
 
 	NSIndexPath* _selected;
 	

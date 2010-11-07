@@ -5,7 +5,7 @@
 
 - (void)viewDidLoad {
 	for(UIViewController *viewCtrl in self.viewControllers) {
-		if([viewCtrl isKindOfClass:[StudyViewController class]]) {
+		if([viewCtrl isKindOfClass:[StudyListViewController class]]) {
 			// 스터디뷰에 스터디가 선택되었는지 감시한다.
 			[viewCtrl addObserver:self 
 					   forKeyPath:@"selected" 

@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface StudyTableViewCell : UITableViewCell {
+@interface StudyListItemViewCell : UITableViewCell {
 	
 	UIImageView* _studyImageView;
 	UILabel* _titleLbl;
