@@ -5,6 +5,10 @@
 
 @interface StudyViewController : UITableViewController {
 
+	NSIndexPath* _selected;
+	
 }
+
+@property (nonatomic, retain) NSIndexPath *selected;
 
 @end

@@ -18,6 +18,14 @@
 		F938DFB11285687100DA0078 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = F938DFAF1285687100DA0078 /* clock.png */; };
 		F938DFB21285687100DA0078 /* period.png in Resources */ = {isa = PBXBuildFile; fileRef = F938DFB01285687100DA0078 /* period.png */; };
 		F938DFB412856B2700DA0078 /* studyLogoBg.png in Resources */ = {isa = PBXBuildFile; fileRef = F938DFB312856B2700DA0078 /* studyLogoBg.png */; };
+		F938DFFA1285722600DA0078 /* StudyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F938DFF81285722600DA0078 /* StudyInfoViewController.m */; };
+		F938DFFB1285722600DA0078 /* StudyDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F938DFF91285722600DA0078 /* StudyDetailViewController.xib */; };
+		F938E004128576FB00DA0078 /* TextUnderLine.png in Resources */ = {isa = PBXBuildFile; fileRef = F938E003128576FB00DA0078 /* TextUnderLine.png */; };
+		F938E0311285817700DA0078 /* StudyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F938E0301285817700DA0078 /* StudyNavigationController.m */; };
+		F938E0C41285902C00DA0078 /* TextBarBg.png in Resources */ = {isa = PBXBuildFile; fileRef = F938E0C31285902C00DA0078 /* TextBarBg.png */; };
+		F965EA6E12863C4A00B95809 /* StudyMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F965EA6D12863C4A00B95809 /* StudyMemberViewController.m */; };
+		F965EA831286414100B95809 /* StudyMeetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F965EA821286414100B95809 /* StudyMeetingViewController.m */; };
+		F965EB2F1286540100B95809 /* StudyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F965EB2E1286540100B95809 /* StudyDetailViewController.m */; };
 		F968A79212846AEF000FBC2C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F968A79112846AEF000FBC2C /* RootViewController.m */; };
 		F968A7AC12846D2D000FBC2C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F968A7AA12846D2D000FBC2C /* LoginViewController.m */; };
 		F968A7AD12846D2D000FBC2C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F968A7AB12846D2D000FBC2C /* LoginViewController.xib */; };
@@ -48,6 +56,19 @@
 		F938DFAF1285687100DA0078 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = /Developer_workspace/xcode/springsprout/iphoneApp/clock.png; sourceTree = "<absolute>"; };
 		F938DFB01285687100DA0078 /* period.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = period.png; path = /Developer_workspace/xcode/springsprout/iphoneApp/period.png; sourceTree = "<absolute>"; };
 		F938DFB312856B2700DA0078 /* studyLogoBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = studyLogoBg.png; path = /Developer_workspace/xcode/springsprout/iphoneApp/studyLogoBg.png; sourceTree = "<absolute>"; };
+		F938DFF71285722600DA0078 /* StudyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyInfoViewController.h; sourceTree = "<group>"; };
+		F938DFF81285722600DA0078 /* StudyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyInfoViewController.m; sourceTree = "<group>"; };
+		F938DFF91285722600DA0078 /* StudyDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudyDetailViewController.xib; path = Resources/StudyDetailViewController.xib; sourceTree = "<group>"; };
+		F938E003128576FB00DA0078 /* TextUnderLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextUnderLine.png; path = /Developer_workspace/xcode/springsprout/iphoneApp/TextUnderLine.png; sourceTree = "<absolute>"; };
+		F938E02F1285817700DA0078 /* StudyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyNavigationController.h; sourceTree = "<group>"; };
+		F938E0301285817700DA0078 /* StudyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyNavigationController.m; sourceTree = "<group>"; };
+		F938E0C31285902C00DA0078 /* TextBarBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextBarBg.png; path = /Developer_workspace/xcode/springsprout/iphoneApp/TextBarBg.png; sourceTree = "<absolute>"; };
+		F965EA6C12863C4A00B95809 /* StudyMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyMemberViewController.h; sourceTree = "<group>"; };
+		F965EA6D12863C4A00B95809 /* StudyMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyMemberViewController.m; sourceTree = "<group>"; };
+		F965EA811286414100B95809 /* StudyMeetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyMeetingViewController.h; sourceTree = "<group>"; };
+		F965EA821286414100B95809 /* StudyMeetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyMeetingViewController.m; sourceTree = "<group>"; };
+		F965EB2D1286540100B95809 /* StudyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudyDetailViewController.h; path = /Developer_workspace/xcode/springsprout/iphoneApp/Classes/StudyDetailViewController.h; sourceTree = "<absolute>"; };
+		F965EB2E1286540100B95809 /* StudyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudyDetailViewController.m; path = /Developer_workspace/xcode/springsprout/iphoneApp/Classes/StudyDetailViewController.m; sourceTree = "<absolute>"; };
 		F968A79012846AEF000FBC2C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		F968A79112846AEF000FBC2C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		F968A7A912846D2D000FBC2C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -61,8 +82,8 @@
 		F968A87F128487E8000FBC2C /* ServiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ServiceViewController.xib; path = Resources/ServiceViewController.xib; sourceTree = "<group>"; };
 		F968A89512848977000FBC2C /* StudyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyViewController.h; sourceTree = "<group>"; };
 		F968A89612848977000FBC2C /* StudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyViewController.m; sourceTree = "<group>"; };
-		F9D2D0261284C60800C70DF5 /* StudyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudyTableViewCell.h; path = /Developer_workspace/xcode/springsprout/iphoneApp/Classes/StudyTableViewCell.h; sourceTree = "<absolute>"; };
-		F9D2D0271284C60800C70DF5 /* StudyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudyTableViewCell.m; path = /Developer_workspace/xcode/springsprout/iphoneApp/Classes/StudyTableViewCell.m; sourceTree = "<absolute>"; };
+		F9D2D0261284C60800C70DF5 /* StudyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyTableViewCell.h; sourceTree = "<group>"; };
+		F9D2D0271284C60800C70DF5 /* StudyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyTableViewCell.m; sourceTree = "<group>"; };
 		F9D2D0281284C60800C70DF5 /* StudyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudyTableViewCell.xib; path = Classes/StudyTableViewCell.xib; sourceTree = "<group>"; };
 		F9D2D0821284D3DF00C70DF5 /* StudyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudyViewController.xib; path = /Developer_workspace/xcode/springsprout/iphoneApp/Resources/StudyViewController.xib; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -93,10 +114,7 @@
 				F968A7AA12846D2D000FBC2C /* LoginViewController.m */,
 				F968A87D128487E8000FBC2C /* ServiceViewController.h */,
 				F968A87E128487E8000FBC2C /* ServiceViewController.m */,
-				F968A89512848977000FBC2C /* StudyViewController.h */,
-				F968A89612848977000FBC2C /* StudyViewController.m */,
-				F9D2D0261284C60800C70DF5 /* StudyTableViewCell.h */,
-				F9D2D0271284C60800C70DF5 /* StudyTableViewCell.m */,
+				F938E0A712858BE300DA0078 /* Study */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -139,6 +157,7 @@
 				F968A87F128487E8000FBC2C /* ServiceViewController.xib */,
 				F9D2D0821284D3DF00C70DF5 /* StudyViewController.xib */,
 				F9D2D0281284C60800C70DF5 /* StudyTableViewCell.xib */,
+				F938DFF91285722600DA0078 /* StudyDetailViewController.xib */,
 				2819305F112F816700ECF9B4 /* SpringSprout_iPhone_App.xcdatamodeld */,
 				8D1107310486CEB800E47090 /* SpringSprout_iPhone_App-Info.plist */,
 			);
@@ -156,9 +175,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F938E0A712858BE300DA0078 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				F938E02F1285817700DA0078 /* StudyNavigationController.h */,
+				F938E0301285817700DA0078 /* StudyNavigationController.m */,
+				F968A89512848977000FBC2C /* StudyViewController.h */,
+				F968A89612848977000FBC2C /* StudyViewController.m */,
+				F9D2D0261284C60800C70DF5 /* StudyTableViewCell.h */,
+				F9D2D0271284C60800C70DF5 /* StudyTableViewCell.m */,
+				F965EB2D1286540100B95809 /* StudyDetailViewController.h */,
+				F965EB2E1286540100B95809 /* StudyDetailViewController.m */,
+				F938DFF71285722600DA0078 /* StudyInfoViewController.h */,
+				F938DFF81285722600DA0078 /* StudyInfoViewController.m */,
+				F965EA6C12863C4A00B95809 /* StudyMemberViewController.h */,
+				F965EA6D12863C4A00B95809 /* StudyMemberViewController.m */,
+				F965EA811286414100B95809 /* StudyMeetingViewController.h */,
+				F965EA821286414100B95809 /* StudyMeetingViewController.m */,
+			);
+			name = Study;
+			sourceTree = "<group>";
+		};
 		F968A80712847E11000FBC2C /* images */ = {
 			isa = PBXGroup;
 			children = (
+				F938E0C31285902C00DA0078 /* TextBarBg.png */,
+				F938E003128576FB00DA0078 /* TextUnderLine.png */,
 				F938DFB312856B2700DA0078 /* studyLogoBg.png */,
 				F938DFAF1285687100DA0078 /* clock.png */,
 				F938DFB01285687100DA0078 /* period.png */,
@@ -229,6 +271,9 @@
 				F938DFB11285687100DA0078 /* clock.png in Resources */,
 				F938DFB21285687100DA0078 /* period.png in Resources */,
 				F938DFB412856B2700DA0078 /* studyLogoBg.png in Resources */,
+				F938DFFB1285722600DA0078 /* StudyDetailViewController.xib in Resources */,
+				F938E004128576FB00DA0078 /* TextUnderLine.png in Resources */,
+				F938E0C41285902C00DA0078 /* TextBarBg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +292,11 @@
 				F968A880128487E8000FBC2C /* ServiceViewController.m in Sources */,
 				F968A89712848977000FBC2C /* StudyViewController.m in Sources */,
 				F9D2D0291284C60800C70DF5 /* StudyTableViewCell.m in Sources */,
+				F938DFFA1285722600DA0078 /* StudyInfoViewController.m in Sources */,
+				F938E0311285817700DA0078 /* StudyNavigationController.m in Sources */,
+				F965EA6E12863C4A00B95809 /* StudyMemberViewController.m in Sources */,
+				F965EA831286414100B95809 /* StudyMeetingViewController.m in Sources */,
+				F965EB2F1286540100B95809 /* StudyDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

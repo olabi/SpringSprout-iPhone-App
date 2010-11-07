@@ -3,6 +3,7 @@
 
 @implementation StudyViewController
 
+@synthesize selected = _selected;
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
@@ -10,7 +11,7 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return 2;
 }
 
 
@@ -33,11 +34,13 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSLog(@"%@", indexPath);
+	// 선택된 아이템을 저장해둔다.
+	self.selected = indexPath;
 }
 
 - (void)dealloc {
-    [super dealloc];
+	[_selected release];
+	[super dealloc];
 }
 
 

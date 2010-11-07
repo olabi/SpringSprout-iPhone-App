@@ -7,15 +7,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	self.view = self.tabBarCtrl.view; 
+	self.view = _tabBarCtrl.view; 
 }
 
 
 - (void)dealloc {
-	
-	[self.tabBarCtrl release];
-	
-    [super dealloc];
+	[_tabBarCtrl release];
+	[super dealloc];
 	
 }
 

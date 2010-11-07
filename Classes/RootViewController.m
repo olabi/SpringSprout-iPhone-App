@@ -23,7 +23,7 @@
 		[loginViewCtrl addObserver:self 
 						forKeyPath:@"loginState" 
 						   options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionInitial 
-						   context:nil];	
+						   context:nil];
 	}
 }
 
