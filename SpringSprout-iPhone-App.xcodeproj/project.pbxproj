@@ -21,7 +21,7 @@
 		F938DFFA1285722600DA0078 /* StudyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F938DFF81285722600DA0078 /* StudyInfoViewController.m */; };
 		F938DFFB1285722600DA0078 /* StudyDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F938DFF91285722600DA0078 /* StudyDetailViewController.xib */; };
 		F938E004128576FB00DA0078 /* TextUnderLine.png in Resources */ = {isa = PBXBuildFile; fileRef = F938E003128576FB00DA0078 /* TextUnderLine.png */; };
-		F938E0311285817700DA0078 /* StudyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F938E0301285817700DA0078 /* StudyNavigationController.m */; };
+		F938E0311285817700DA0078 /* StudyServieDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F938E0301285817700DA0078 /* StudyServieDelegate.m */; };
 		F938E0C41285902C00DA0078 /* TextBarBg.png in Resources */ = {isa = PBXBuildFile; fileRef = F938E0C31285902C00DA0078 /* TextBarBg.png */; };
 		F965EA6E12863C4A00B95809 /* StudyMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F965EA6D12863C4A00B95809 /* StudyMemberViewController.m */; };
 		F965EA831286414100B95809 /* StudyMeetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F965EA821286414100B95809 /* StudyMeetingViewController.m */; };
@@ -60,8 +60,8 @@
 		F938DFF81285722600DA0078 /* StudyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyInfoViewController.m; sourceTree = "<group>"; };
 		F938DFF91285722600DA0078 /* StudyDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudyDetailViewController.xib; path = Resources/StudyDetailViewController.xib; sourceTree = "<group>"; };
 		F938E003128576FB00DA0078 /* TextUnderLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextUnderLine.png; path = Resources/TextUnderLine.png; sourceTree = "<group>"; };
-		F938E02F1285817700DA0078 /* StudyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyNavigationController.h; sourceTree = "<group>"; };
-		F938E0301285817700DA0078 /* StudyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyNavigationController.m; sourceTree = "<group>"; };
+		F938E02F1285817700DA0078 /* StudyServieDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyServieDelegate.h; sourceTree = "<group>"; };
+		F938E0301285817700DA0078 /* StudyServieDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyServieDelegate.m; sourceTree = "<group>"; };
 		F938E0C31285902C00DA0078 /* TextBarBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextBarBg.png; path = Resources/TextBarBg.png; sourceTree = "<group>"; };
 		F965EA6C12863C4A00B95809 /* StudyMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyMemberViewController.h; sourceTree = "<group>"; };
 		F965EA6D12863C4A00B95809 /* StudyMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyMemberViewController.m; sourceTree = "<group>"; };
@@ -178,8 +178,8 @@
 		F938E0A712858BE300DA0078 /* Study */ = {
 			isa = PBXGroup;
 			children = (
-				F938E02F1285817700DA0078 /* StudyNavigationController.h */,
-				F938E0301285817700DA0078 /* StudyNavigationController.m */,
+				F938E02F1285817700DA0078 /* StudyServieDelegate.h */,
+				F938E0301285817700DA0078 /* StudyServieDelegate.m */,
 				F968A89512848977000FBC2C /* StudyListViewController.h */,
 				F968A89612848977000FBC2C /* StudyListViewController.m */,
 				F9D2D0261284C60800C70DF5 /* StudyListItemViewCell.h */,
@@ -293,7 +293,7 @@
 				F968A89712848977000FBC2C /* StudyListViewController.m in Sources */,
 				F9D2D0291284C60800C70DF5 /* StudyListItemViewCell.m in Sources */,
 				F938DFFA1285722600DA0078 /* StudyInfoViewController.m in Sources */,
-				F938E0311285817700DA0078 /* StudyNavigationController.m in Sources */,
+				F938E0311285817700DA0078 /* StudyServieDelegate.m in Sources */,
 				F965EA6E12863C4A00B95809 /* StudyMemberViewController.m in Sources */,
 				F965EA831286414100B95809 /* StudyMeetingViewController.m in Sources */,
 				F965EB2F1286540100B95809 /* StudyDetailViewController.m in Sources */,
