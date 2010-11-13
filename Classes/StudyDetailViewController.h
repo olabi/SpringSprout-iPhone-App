@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "StudyDetailViewTransparentToolbar.h"
 
 @interface StudyDetailViewController : UIViewController {
 

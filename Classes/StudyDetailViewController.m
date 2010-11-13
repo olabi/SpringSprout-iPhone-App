@@ -57,8 +57,9 @@
 	[toolbar setItems:[NSArray arrayWithObjects:infoButton,memberButton,meetingButton,nil] animated:NO];
 	
 	// 네비게이션에 버튼 툴바 추가
-	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]
-											  initWithCustomView:toolbar];
+	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc]
+											  initWithCustomView:toolbar] 
+											  autorelease];
 	
 	[infoButton release];
 	[memberButton release];
