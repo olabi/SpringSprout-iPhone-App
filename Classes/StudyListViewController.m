@@ -11,7 +11,7 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 2;
+    return 3;
 }
 
 
@@ -25,10 +25,24 @@
 		cell = [tableViewCellObjs objectAtIndex:0];
     }
 	
-	cell.studyImage = cell.studyImage;
-	cell.studyTitle = @"Objective C 스터디";
-	cell.headCount = @"5 / 10";
-	cell.period = @"2010/12/01 ~ 2010/12/31";
+	if(indexPath.row == 2) {
+		cell.titleLbl.text = @"Scala 스터디";
+		cell.headCountLbl.text = @"10 / 15";
+		cell.periodLbl.text = @"2010-10-01 ~ 2010-10-31";
+		cell.stateLbl.text = @"종료";
+	}
+	else if(indexPath.row == 1) {
+		cell.titleLbl.text = @"토스3 스터디";
+		cell.headCountLbl.text = @"30 / 30";
+		cell.periodLbl.text = @"2010-10-21 ~ 2011-11-20";
+		cell.stateLbl.text = @"진행중";		
+	}
+	else {
+		cell.titleLbl.text = @"ViewController 와 친해지기~";
+		cell.headCountLbl.text = @"3 / 5";
+		cell.periodLbl.text = @"2010-11-08 ~ 2010-11-20";
+		cell.stateLbl.text = @"진행중";				
+	}
 	        
     return cell;
 }

@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="71"/>
+			<integer value="61"/>
 			<integer value="65"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
@@ -47,8 +47,9 @@
 						<object class="IBUIImageView" id="299636803">
 							<reference key="NSNextResponder" ref="191373211"/>
 							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{10, 10}, {300, 30}}</string>
+							<string key="NSFrame">{{10, 14}, {300, 30}}</string>
 							<reference key="NSSuperview" ref="191373211"/>
+							<reference key="NSWindow"/>
 							<bool key="IBUIUserInteractionEnabled">NO</bool>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							<object class="NSCustomResource" key="IBUIImage">
@@ -59,8 +60,9 @@
 						<object class="IBUILabel" id="62403979">
 							<reference key="NSNextResponder" ref="191373211"/>
 							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{16, 10}, {284, 26}}</string>
+							<string key="NSFrame">{{16, 14}, {284, 26}}</string>
 							<reference key="NSSuperview" ref="191373211"/>
+							<reference key="NSWindow"/>
 							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClipsSubviews">YES</bool>
 							<int key="IBUIContentMode">7</int>
@@ -81,8 +83,9 @@
 						<object class="IBUIImageView" id="18219902">
 							<reference key="NSNextResponder" ref="191373211"/>
 							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{20, 55}, {280, 30}}</string>
+							<string key="NSFrame">{{20, 59}, {280, 30}}</string>
 							<reference key="NSSuperview" ref="191373211"/>
+							<reference key="NSWindow"/>
 							<bool key="IBUIUserInteractionEnabled">NO</bool>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							<object class="NSCustomResource" key="IBUIImage" id="369249246">
@@ -93,8 +96,9 @@
 						<object class="IBUIImageView" id="373023215">
 							<reference key="NSNextResponder" ref="191373211"/>
 							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{20, 257}, {280, 30}}</string>
+							<string key="NSFrame">{{20, 252}, {280, 30}}</string>
 							<reference key="NSSuperview" ref="191373211"/>
+							<reference key="NSWindow"/>
 							<bool key="IBUIUserInteractionEnabled">NO</bool>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							<reference key="IBUIImage" ref="369249246"/>
@@ -102,8 +106,9 @@
 						<object class="IBUILabel" id="98558422">
 							<reference key="NSNextResponder" ref="191373211"/>
 							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{28, 57}, {263, 21}}</string>
+							<string key="NSFrame">{{28, 61}, {263, 21}}</string>
 							<reference key="NSSuperview" ref="191373211"/>
+							<reference key="NSWindow"/>
 							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClipsSubviews">YES</bool>
 							<int key="IBUIContentMode">7</int>
@@ -123,8 +128,9 @@
 						<object class="IBUILabel" id="720977917">
 							<reference key="NSNextResponder" ref="191373211"/>
 							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{28, 261}, {263, 21}}</string>
+							<string key="NSFrame">{{28, 256}, {263, 21}}</string>
 							<reference key="NSSuperview" ref="191373211"/>
+							<reference key="NSWindow"/>
 							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClipsSubviews">YES</bool>
 							<int key="IBUIContentMode">7</int>
@@ -140,8 +146,9 @@
 						<object class="IBUILabel" id="25040156">
 							<reference key="NSNextResponder" ref="191373211"/>
 							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{28, 295}, {263, 25}}</string>
+							<string key="NSFrame">{{28, 290}, {263, 25}}</string>
 							<reference key="NSSuperview" ref="191373211"/>
+							<reference key="NSWindow"/>
 							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClipsSubviews">YES</bool>
 							<int key="IBUIContentMode">7</int>
@@ -161,8 +168,9 @@
 						<object class="IBUILabel" id="507305038">
 							<reference key="NSNextResponder" ref="191373211"/>
 							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{28, 317}, {263, 25}}</string>
+							<string key="NSFrame">{{28, 312}, {263, 25}}</string>
 							<reference key="NSSuperview" ref="191373211"/>
+							<reference key="NSWindow"/>
 							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClipsSubviews">YES</bool>
 							<int key="IBUIContentMode">7</int>
@@ -178,8 +186,9 @@
 						<object class="IBUILabel" id="122022679">
 							<reference key="NSNextResponder" ref="191373211"/>
 							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{28, 339}, {263, 25}}</string>
+							<string key="NSFrame">{{28, 334}, {263, 25}}</string>
 							<reference key="NSSuperview" ref="191373211"/>
+							<reference key="NSWindow"/>
 							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClipsSubviews">YES</bool>
 							<int key="IBUIContentMode">7</int>
@@ -195,8 +204,9 @@
 						<object class="IBUILabel" id="499218695">
 							<reference key="NSNextResponder" ref="191373211"/>
 							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{28, 93}, {263, 21}}</string>
+							<string key="NSFrame">{{28, 97}, {263, 21}}</string>
 							<reference key="NSSuperview" ref="191373211"/>
+							<reference key="NSWindow"/>
 							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClipsSubviews">YES</bool>
 							<int key="IBUIContentMode">7</int>
@@ -214,8 +224,9 @@
 							<float key="IBUIMinimumFontSize">10</float>
 						</object>
 					</object>
-					<string key="NSFrameSize">{320, 367}</string>
+					<string key="NSFrame">{{0, 24}, {320, 367}}</string>
 					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 					<reference key="IBUIBackgroundColor" ref="1018266998"/>
 					<bool key="IBUIAutoresizesSubviews">NO</bool>
 					<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
@@ -226,7 +237,7 @@
 					<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				</object>
 				<object class="IBUISimulatedTabBarMetrics" key="IBUISimulatedBottomBarMetrics"/>
-				<object class="IBUISimulatedNavigationBarMetrics" key="IBUISimulatedTopBarMetrics">
+				<object class="IBUISimulatedNavigationBarMetrics" key="IBUISimulatedTopBarMetrics" id="811069233">
 					<bool key="IBUIPrompted">NO</bool>
 				</object>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
@@ -240,7 +251,7 @@
 				<object class="IBUITableView" key="IBUIView" id="30391037">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">274</int>
-					<string key="NSFrameSize">{320, 460}</string>
+					<string key="NSFrameSize">{320, 367}</string>
 					<reference key="NSSuperview"/>
 					<object class="NSColor" key="IBUIBackgroundColor">
 						<int key="NSColorSpace">10</int>
@@ -287,6 +298,8 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<float key="IBUISectionHeaderHeight">10</float>
 					<float key="IBUISectionFooterHeight">10</float>
 				</object>
+				<object class="IBUISimulatedTabBarMetrics" key="IBUISimulatedBottomBarMetrics" id="233511303"/>
+				<reference key="IBUISimulatedTopBarMetrics" ref="811069233"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 					<int key="interfaceOrientation">1</int>
@@ -296,9 +309,10 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 			</object>
 			<object class="IBUITableViewController" id="801085491">
 				<object class="IBUITableView" key="IBUIView" id="351895701">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">274</int>
-					<string key="NSFrameSize">{320, 460}</string>
+					<string key="NSFrameSize">{320, 367}</string>
+					<reference key="NSSuperview"/>
 					<reference key="IBUIBackgroundColor" ref="1018266998"/>
 					<bool key="IBUIOpaque">NO</bool>
 					<bool key="IBUIClipsSubviews">YES</bool>
@@ -312,6 +326,8 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<float key="IBUISectionHeaderHeight">22</float>
 					<float key="IBUISectionFooterHeight">22</float>
 				</object>
+				<reference key="IBUISimulatedBottomBarMetrics" ref="233511303"/>
+				<reference key="IBUISimulatedTopBarMetrics" ref="811069233"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 					<int key="interfaceOrientation">1</int>
@@ -605,7 +621,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 						<bytes key="NSTransformStruct">AUGgAABCTAAAA</bytes>
 					</object>
 					<string>StudyInfoViewController</string>
-					<string>{{338, 265}, {320, 480}}</string>
+					<string>{{602, 53}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">

@@ -14,6 +14,7 @@
 	_studyServiceDelegate = [[StudyServieDelegate alloc] init];
 	_studyServiceDelegate.navigationController = _studyNaviCtrl;
 	_studyNaviCtrl.delegate = _studyServiceDelegate;
+	_studyNaviCtrl.navigationBar.tintColor = [UIColor colorWithRed:.5 green:.7 blue:.3 alpha:.8];
 	
 	self.view = _tabBarCtrl.view;
 }
