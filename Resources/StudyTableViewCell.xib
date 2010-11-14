@@ -153,7 +153,7 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<object class="NSCustomResource" key="IBUIImage">
 									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">clock.png</string>
+									<string key="NSResourceName">clockIcon.png</string>
 								</object>
 							</object>
 							<object class="IBUIImageView" id="539865373">
@@ -166,7 +166,7 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<object class="NSCustomResource" key="IBUIImage">
 									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">period.png</string>
+									<string key="NSResourceName">headCountIcon.png</string>
 								</object>
 							</object>
 							<object class="IBUIImageView" id="1063258623">
@@ -179,7 +179,7 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<object class="NSCustomResource" key="IBUIImage">
 									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">StudyStateIcon.png</string>
+									<string key="NSResourceName">stateIcon.png</string>
 								</object>
 							</object>
 							<object class="IBUIImageView" id="738103273">
@@ -192,7 +192,7 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<object class="NSCustomResource" key="IBUIImage">
 									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">StudyNameIcon.png</string>
+									<string key="NSResourceName">studyNameIcon.png</string>
 								</object>
 							</object>
 						</object>
@@ -647,19 +647,19 @@
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<object class="NSArray" key="dict.sortedKeys">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>StudyNameIcon.png</string>
-				<string>StudyStateIcon.png</string>
-				<string>clock.png</string>
-				<string>period.png</string>
+				<string>clockIcon.png</string>
+				<string>headCountIcon.png</string>
+				<string>stateIcon.png</string>
 				<string>studyListItemBg.png</string>
+				<string>studyNameIcon.png</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>{7, 23}</string>
 				<string>{50, 50}</string>
 				<string>{50, 50}</string>
 				<string>{50, 50}</string>
 				<string>{320, 81}</string>
+				<string>{7, 23}</string>
 			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">123</string>

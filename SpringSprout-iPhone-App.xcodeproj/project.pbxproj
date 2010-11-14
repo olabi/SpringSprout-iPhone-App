@@ -15,17 +15,14 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
-		F911A06A128D03C100E9FB9F /* studyListItemBg.png in Resources */ = {isa = PBXBuildFile; fileRef = F911A069128D03C100E9FB9F /* studyListItemBg.png */; };
-		F938DFB11285687100DA0078 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = F938DFAF1285687100DA0078 /* clock.png */; };
-		F938DFB21285687100DA0078 /* period.png in Resources */ = {isa = PBXBuildFile; fileRef = F938DFB01285687100DA0078 /* period.png */; };
-		F938DFB412856B2700DA0078 /* studyLogoBg.png in Resources */ = {isa = PBXBuildFile; fileRef = F938DFB312856B2700DA0078 /* studyLogoBg.png */; };
 		F938DFFA1285722600DA0078 /* StudyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F938DFF81285722600DA0078 /* StudyInfoViewController.m */; };
 		F938DFFB1285722600DA0078 /* StudyDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F938DFF91285722600DA0078 /* StudyDetailViewController.xib */; };
 		F938E004128576FB00DA0078 /* TextUnderLine.png in Resources */ = {isa = PBXBuildFile; fileRef = F938E003128576FB00DA0078 /* TextUnderLine.png */; };
 		F938E0311285817700DA0078 /* StudyServieDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F938E0301285817700DA0078 /* StudyServieDelegate.m */; };
 		F938E0C41285902C00DA0078 /* TextBarBg.png in Resources */ = {isa = PBXBuildFile; fileRef = F938E0C31285902C00DA0078 /* TextBarBg.png */; };
+		F9438C82128FAF8500E8F850 /* MeetingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9438C81128FAF8500E8F850 /* MeetingTableViewCell.m */; };
 		F965EA6E12863C4A00B95809 /* StudyMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F965EA6D12863C4A00B95809 /* StudyMemberViewController.m */; };
-		F965EA831286414100B95809 /* StudyMeetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F965EA821286414100B95809 /* StudyMeetingViewController.m */; };
+		F965EA831286414100B95809 /* MeetingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F965EA821286414100B95809 /* MeetingTableViewController.m */; };
 		F965EB2F1286540100B95809 /* StudyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F965EB2E1286540100B95809 /* StudyDetailViewController.m */; };
 		F968A79212846AEF000FBC2C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F968A79112846AEF000FBC2C /* RootViewController.m */; };
 		F968A7AC12846D2D000FBC2C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F968A7AA12846D2D000FBC2C /* LoginViewController.m */; };
@@ -36,8 +33,14 @@
 		F968A880128487E8000FBC2C /* ServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F968A87E128487E8000FBC2C /* ServiceViewController.m */; };
 		F968A881128487E8000FBC2C /* ServiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F968A87F128487E8000FBC2C /* ServiceViewController.xib */; };
 		F968A89712848977000FBC2C /* StudyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F968A89612848977000FBC2C /* StudyListViewController.m */; };
-		F975D965128D862D00EDE4AC /* StudyNameIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F975D964128D862D00EDE4AC /* StudyNameIcon.png */; };
-		F975D967128D877400EDE4AC /* StudyStateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F975D966128D877400EDE4AC /* StudyStateIcon.png */; };
+		F99CBE6E128F9DA300DC8024 /* meetingCalendarBox.png in Resources */ = {isa = PBXBuildFile; fileRef = F99CBE6D128F9DA300DC8024 /* meetingCalendarBox.png */; };
+		F99CBE70128F9DCA00DC8024 /* MeetingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F99CBE6F128F9DCA00DC8024 /* MeetingTableViewCell.xib */; };
+		F99CBE7B128FA53300DC8024 /* clockIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F99CBE76128FA53300DC8024 /* clockIcon.png */; };
+		F99CBE7C128FA53300DC8024 /* headCountIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F99CBE77128FA53300DC8024 /* headCountIcon.png */; };
+		F99CBE7D128FA53300DC8024 /* managerNameIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F99CBE78128FA53300DC8024 /* managerNameIcon.png */; };
+		F99CBE7E128FA53300DC8024 /* stateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F99CBE79128FA53300DC8024 /* stateIcon.png */; };
+		F99CBE7F128FA53300DC8024 /* studyNameIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F99CBE7A128FA53300DC8024 /* studyNameIcon.png */; };
+		F9D1D232128FA719009A1581 /* studyListItemBg.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D1D231128FA719009A1581 /* studyListItemBg.png */; };
 		F9D2D0291284C60800C70DF5 /* StudyListItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D2D0271284C60800C70DF5 /* StudyListItemViewCell.m */; };
 		F9D2D02A1284C60800C70DF5 /* StudyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D2D0281284C60800C70DF5 /* StudyTableViewCell.xib */; };
 		F9D2D0831284D3DF00C70DF5 /* StudyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D2D0821284D3DF00C70DF5 /* StudyViewController.xib */; };
@@ -56,10 +59,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* SpringSprout_iPhone_App_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringSprout_iPhone_App_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SpringSprout_iPhone_App-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SpringSprout_iPhone_App-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		F911A069128D03C100E9FB9F /* studyListItemBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = studyListItemBg.png; path = "../../../../Users/arawn/Documents/봄싹_아이폰앱/image/studyListItemBg.png"; sourceTree = "<group>"; };
-		F938DFAF1285687100DA0078 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = Resources/clock.png; sourceTree = "<group>"; };
-		F938DFB01285687100DA0078 /* period.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = period.png; path = Resources/period.png; sourceTree = "<group>"; };
-		F938DFB312856B2700DA0078 /* studyLogoBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = studyLogoBg.png; path = Resources/studyLogoBg.png; sourceTree = "<group>"; };
 		F938DFF71285722600DA0078 /* StudyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyInfoViewController.h; sourceTree = "<group>"; };
 		F938DFF81285722600DA0078 /* StudyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyInfoViewController.m; sourceTree = "<group>"; };
 		F938DFF91285722600DA0078 /* StudyDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudyDetailViewController.xib; path = Resources/StudyDetailViewController.xib; sourceTree = "<group>"; };
@@ -67,10 +66,12 @@
 		F938E02F1285817700DA0078 /* StudyServieDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyServieDelegate.h; sourceTree = "<group>"; };
 		F938E0301285817700DA0078 /* StudyServieDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyServieDelegate.m; sourceTree = "<group>"; };
 		F938E0C31285902C00DA0078 /* TextBarBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextBarBg.png; path = Resources/TextBarBg.png; sourceTree = "<group>"; };
+		F9438C80128FAF8500E8F850 /* MeetingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeetingTableViewCell.h; path = /Developer_workspace/xcode/springsprout/iphoneApp/Classes/MeetingTableViewCell.h; sourceTree = "<absolute>"; };
+		F9438C81128FAF8500E8F850 /* MeetingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeetingTableViewCell.m; path = /Developer_workspace/xcode/springsprout/iphoneApp/Classes/MeetingTableViewCell.m; sourceTree = "<absolute>"; };
 		F965EA6C12863C4A00B95809 /* StudyMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyMemberViewController.h; sourceTree = "<group>"; };
 		F965EA6D12863C4A00B95809 /* StudyMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyMemberViewController.m; sourceTree = "<group>"; };
-		F965EA811286414100B95809 /* StudyMeetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyMeetingViewController.h; sourceTree = "<group>"; };
-		F965EA821286414100B95809 /* StudyMeetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyMeetingViewController.m; sourceTree = "<group>"; };
+		F965EA811286414100B95809 /* MeetingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingTableViewController.h; sourceTree = "<group>"; };
+		F965EA821286414100B95809 /* MeetingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingTableViewController.m; sourceTree = "<group>"; };
 		F965EB2D1286540100B95809 /* StudyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyDetailViewController.h; sourceTree = "<group>"; };
 		F965EB2E1286540100B95809 /* StudyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyDetailViewController.m; sourceTree = "<group>"; };
 		F968A79012846AEF000FBC2C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -78,16 +79,22 @@
 		F968A7A912846D2D000FBC2C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		F968A7AA12846D2D000FBC2C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		F968A7AB12846D2D000FBC2C /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Resources/LoginViewController.xib; sourceTree = "<group>"; };
-		F968A80812847E26000FBC2C /* checkBox_Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox_Off.png; path = Resources/images/checkBox_Off.png; sourceTree = "<group>"; };
-		F968A80912847E26000FBC2C /* checkBox_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox_On.png; path = Resources/images/checkBox_On.png; sourceTree = "<group>"; };
-		F968A80A12847E26000FBC2C /* logo_beta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_beta.png; path = Resources/images/logo_beta.png; sourceTree = "<group>"; };
+		F968A80812847E26000FBC2C /* checkBox_Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox_Off.png; path = Resources/checkBox_Off.png; sourceTree = "<group>"; };
+		F968A80912847E26000FBC2C /* checkBox_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox_On.png; path = Resources/checkBox_On.png; sourceTree = "<group>"; };
+		F968A80A12847E26000FBC2C /* logo_beta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_beta.png; path = Resources/logo_beta.png; sourceTree = "<group>"; };
 		F968A87D128487E8000FBC2C /* ServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceViewController.h; sourceTree = "<group>"; };
 		F968A87E128487E8000FBC2C /* ServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceViewController.m; sourceTree = "<group>"; };
 		F968A87F128487E8000FBC2C /* ServiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ServiceViewController.xib; path = Resources/ServiceViewController.xib; sourceTree = "<group>"; };
 		F968A89512848977000FBC2C /* StudyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyListViewController.h; sourceTree = "<group>"; };
 		F968A89612848977000FBC2C /* StudyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyListViewController.m; sourceTree = "<group>"; };
-		F975D964128D862D00EDE4AC /* StudyNameIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StudyNameIcon.png; path = Resources/StudyNameIcon.png; sourceTree = "<group>"; };
-		F975D966128D877400EDE4AC /* StudyStateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StudyStateIcon.png; path = Resources/StudyStateIcon.png; sourceTree = "<group>"; };
+		F99CBE6D128F9DA300DC8024 /* meetingCalendarBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meetingCalendarBox.png; path = Resources/meetingCalendarBox.png; sourceTree = "<group>"; };
+		F99CBE6F128F9DCA00DC8024 /* MeetingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MeetingTableViewCell.xib; path = Resources/MeetingTableViewCell.xib; sourceTree = "<group>"; };
+		F99CBE76128FA53300DC8024 /* clockIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clockIcon.png; path = Resources/clockIcon.png; sourceTree = "<group>"; };
+		F99CBE77128FA53300DC8024 /* headCountIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = headCountIcon.png; path = Resources/headCountIcon.png; sourceTree = "<group>"; };
+		F99CBE78128FA53300DC8024 /* managerNameIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = managerNameIcon.png; path = Resources/managerNameIcon.png; sourceTree = "<group>"; };
+		F99CBE79128FA53300DC8024 /* stateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stateIcon.png; path = Resources/stateIcon.png; sourceTree = "<group>"; };
+		F99CBE7A128FA53300DC8024 /* studyNameIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = studyNameIcon.png; path = Resources/studyNameIcon.png; sourceTree = "<group>"; };
+		F9D1D231128FA719009A1581 /* studyListItemBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = studyListItemBg.png; path = Resources/studyListItemBg.png; sourceTree = "<group>"; };
 		F9D2D0261284C60800C70DF5 /* StudyListItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyListItemViewCell.h; sourceTree = "<group>"; };
 		F9D2D0271284C60800C70DF5 /* StudyListItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyListItemViewCell.m; sourceTree = "<group>"; };
 		F9D2D0281284C60800C70DF5 /* StudyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudyTableViewCell.xib; path = Resources/StudyTableViewCell.xib; sourceTree = "<group>"; };
@@ -157,6 +164,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F99CBE75128FA48600DC8024 /* icons */,
 				F968A80712847E11000FBC2C /* images */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				F968A7AB12846D2D000FBC2C /* LoginViewController.xib */,
@@ -164,6 +172,7 @@
 				F9D2D0821284D3DF00C70DF5 /* StudyViewController.xib */,
 				F9D2D0281284C60800C70DF5 /* StudyTableViewCell.xib */,
 				F938DFF91285722600DA0078 /* StudyDetailViewController.xib */,
+				F99CBE6F128F9DCA00DC8024 /* MeetingTableViewCell.xib */,
 				2819305F112F816700ECF9B4 /* SpringSprout_iPhone_App.xcdatamodeld */,
 				8D1107310486CEB800E47090 /* SpringSprout_iPhone_App-Info.plist */,
 			);
@@ -196,8 +205,10 @@
 				F938DFF81285722600DA0078 /* StudyInfoViewController.m */,
 				F965EA6C12863C4A00B95809 /* StudyMemberViewController.h */,
 				F965EA6D12863C4A00B95809 /* StudyMemberViewController.m */,
-				F965EA811286414100B95809 /* StudyMeetingViewController.h */,
-				F965EA821286414100B95809 /* StudyMeetingViewController.m */,
+				F965EA811286414100B95809 /* MeetingTableViewController.h */,
+				F965EA821286414100B95809 /* MeetingTableViewController.m */,
+				F9438C80128FAF8500E8F850 /* MeetingTableViewCell.h */,
+				F9438C81128FAF8500E8F850 /* MeetingTableViewCell.m */,
 			);
 			name = Study;
 			sourceTree = "<group>";
@@ -205,19 +216,27 @@
 		F968A80712847E11000FBC2C /* images */ = {
 			isa = PBXGroup;
 			children = (
-				F975D966128D877400EDE4AC /* StudyStateIcon.png */,
-				F975D964128D862D00EDE4AC /* StudyNameIcon.png */,
-				F911A069128D03C100E9FB9F /* studyListItemBg.png */,
+				F9D1D231128FA719009A1581 /* studyListItemBg.png */,
+				F99CBE6D128F9DA300DC8024 /* meetingCalendarBox.png */,
 				F938E0C31285902C00DA0078 /* TextBarBg.png */,
 				F938E003128576FB00DA0078 /* TextUnderLine.png */,
-				F938DFB312856B2700DA0078 /* studyLogoBg.png */,
-				F938DFAF1285687100DA0078 /* clock.png */,
-				F938DFB01285687100DA0078 /* period.png */,
 				F968A80812847E26000FBC2C /* checkBox_Off.png */,
 				F968A80912847E26000FBC2C /* checkBox_On.png */,
 				F968A80A12847E26000FBC2C /* logo_beta.png */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		F99CBE75128FA48600DC8024 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				F99CBE76128FA53300DC8024 /* clockIcon.png */,
+				F99CBE77128FA53300DC8024 /* headCountIcon.png */,
+				F99CBE78128FA53300DC8024 /* managerNameIcon.png */,
+				F99CBE79128FA53300DC8024 /* stateIcon.png */,
+				F99CBE7A128FA53300DC8024 /* studyNameIcon.png */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,15 +296,17 @@
 				F968A881128487E8000FBC2C /* ServiceViewController.xib in Resources */,
 				F9D2D02A1284C60800C70DF5 /* StudyTableViewCell.xib in Resources */,
 				F9D2D0831284D3DF00C70DF5 /* StudyViewController.xib in Resources */,
-				F938DFB11285687100DA0078 /* clock.png in Resources */,
-				F938DFB21285687100DA0078 /* period.png in Resources */,
-				F938DFB412856B2700DA0078 /* studyLogoBg.png in Resources */,
 				F938DFFB1285722600DA0078 /* StudyDetailViewController.xib in Resources */,
 				F938E004128576FB00DA0078 /* TextUnderLine.png in Resources */,
 				F938E0C41285902C00DA0078 /* TextBarBg.png in Resources */,
-				F911A06A128D03C100E9FB9F /* studyListItemBg.png in Resources */,
-				F975D965128D862D00EDE4AC /* StudyNameIcon.png in Resources */,
-				F975D967128D877400EDE4AC /* StudyStateIcon.png in Resources */,
+				F99CBE6E128F9DA300DC8024 /* meetingCalendarBox.png in Resources */,
+				F99CBE70128F9DCA00DC8024 /* MeetingTableViewCell.xib in Resources */,
+				F99CBE7B128FA53300DC8024 /* clockIcon.png in Resources */,
+				F99CBE7C128FA53300DC8024 /* headCountIcon.png in Resources */,
+				F99CBE7D128FA53300DC8024 /* managerNameIcon.png in Resources */,
+				F99CBE7E128FA53300DC8024 /* stateIcon.png in Resources */,
+				F99CBE7F128FA53300DC8024 /* studyNameIcon.png in Resources */,
+				F9D1D232128FA719009A1581 /* studyListItemBg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,8 +328,9 @@
 				F938DFFA1285722600DA0078 /* StudyInfoViewController.m in Sources */,
 				F938E0311285817700DA0078 /* StudyServieDelegate.m in Sources */,
 				F965EA6E12863C4A00B95809 /* StudyMemberViewController.m in Sources */,
-				F965EA831286414100B95809 /* StudyMeetingViewController.m in Sources */,
+				F965EA831286414100B95809 /* MeetingTableViewController.m in Sources */,
 				F965EB2F1286540100B95809 /* StudyDetailViewController.m in Sources */,
+				F9438C82128FAF8500E8F850 /* MeetingTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
