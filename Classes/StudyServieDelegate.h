@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import "StudyListViewController.h"
+#import "StudyTableViewController.h"
 #import "StudyDetailViewController.h"
 
 @interface StudyServieDelegate : NSObject<UINavigationControllerDelegate> {

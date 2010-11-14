@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface StudyListItemViewCell : UITableViewCell {
+@interface StudyTableViewCell : UITableViewCell {
 	
 	UILabel* _titleLbl;
 	UILabel* _headCountLbl;

@@ -11,7 +11,7 @@
 					animated:(BOOL)animated {
 	NSLog(@"willShowViewController : %@.", [viewController class]);
 	
-	if([viewController isKindOfClass:[StudyListViewController class]]) {
+	if([viewController isKindOfClass:[StudyTableViewController class]]) {
 		if(isInitStudyListViewCtrl == NO) {
 			isInitStudyListViewCtrl = YES;
 			// 스터디뷰에 스터디가 선택되었는지 감시한다.

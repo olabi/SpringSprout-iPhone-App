@@ -1,7 +1,7 @@
-#import "StudyListViewController.h"
+#import "StudyTableViewController.h"
 
 
-@implementation StudyListViewController
+@implementation StudyTableViewController
 
 @synthesize selected = _selected;
 
@@ -19,7 +19,7 @@
     
     static NSString *CellIdentifier = @"StudyTableViewCell";
     
-    StudyListItemViewCell *cell = (StudyListItemViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    StudyTableViewCell *cell = (StudyTableViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
 		NSArray *tableViewCellObjs = [[NSBundle mainBundle] loadNibNamed:@"StudyTableViewCell" owner:self options:nil];
 		cell = [tableViewCellObjs objectAtIndex:0];

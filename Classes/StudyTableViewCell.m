@@ -1,7 +1,7 @@
-#import "StudyListItemViewCell.h"
+#import "StudyTableViewCell.h"
 
 
-@implementation StudyListItemViewCell
+@implementation StudyTableViewCell
 
 @synthesize titleLbl = _titleLbl;
 @synthesize headCountLbl = _headCountLbl;
