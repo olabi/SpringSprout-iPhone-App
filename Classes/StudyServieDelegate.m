@@ -41,7 +41,7 @@
 			NSLog(@"selected : %@\n", selected);
 			
 			StudyDetailViewController *detailViewCtrl = [[StudyDetailViewController alloc] 
-														 initWithNibName:@"StudyDetailViewController" 
+														 initWithNibName:@"StudyDetailViews" 
 														 bundle:nil];			
 			[_navigationController pushViewController:detailViewCtrl animated:YES];
 			[detailViewCtrl release];

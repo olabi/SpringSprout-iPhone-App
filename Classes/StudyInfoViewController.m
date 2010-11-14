@@ -1,18 +1,25 @@
-//
-//  StudyDetailViewController.m
-//  SpringSprout-iPhone-App
-//
-//  Created by arawn on 10. 11. 6..
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
-//
-
 #import "StudyInfoViewController.h"
 
 
 @implementation StudyInfoViewController
 
+@synthesize nameLbl = _nameLbl;
+@synthesize introductionTxt = _introductionTxt;
+@synthesize managerLbl = _managerLbl;
+@synthesize meetingCountLbl = _meetingCountLbl;
+@synthesize headCountLbl = _headCountLbl;
+@synthesize periodLbl = _periodLbl;
+@synthesize stateLbl = _stateLbl;	
+
 
 - (void)dealloc {
+	[_nameLbl release];
+	[_introductionTxt release];
+	[_managerLbl release];
+	[_meetingCountLbl release];
+	[_headCountLbl release];
+	[_periodLbl release];
+	[_stateLbl release];
     [super dealloc];
 }
 
