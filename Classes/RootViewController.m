@@ -29,7 +29,7 @@
 
 - (void)initServiceViewCtrl {
 	if(serviceViewCtrl == nil) {
-		serviceViewCtrl = [[ServiceViewController alloc] initWithNibName:@"ServiceViewController" bundle:nil];
+		serviceViewCtrl = [[ServiceViewController alloc] initWithNibName:@"ServiceView" bundle:nil];
 	}
 }
 
